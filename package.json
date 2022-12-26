@@ -1,4 +1,9 @@
 {
+  "scripts":{
+    "invoke:local": "sls invoke local",
+    "deploy": "sls deploy",
+    "remove": "sls remove"
+  },
   "dependencies": {
     "aws-sdk": "^2.1282.0",
     "axios": "^1.2.1"
